@@ -6859,6 +6859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364576537}
   - component: {fileID: 1364576536}
+  - component: {fileID: 1364576538}
   m_Layer: 0
   m_Name: MinimapCamera
   m_TagString: Untagged
@@ -6905,7 +6906,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2560
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 7f3b6198901e9314887e317404aefcc0, type: 2}
   m_TargetDisplay: 0
@@ -6932,6 +6933,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1364576538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364576535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e7724b44157424d98a534fc735cf8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 523560967}
 --- !u!1 &1380261747
 GameObject:
   m_ObjectHideFlags: 0
@@ -9947,6 +9961,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1506574881793137186, guid: 24da73254a1cfe342879b65785b7b102, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576776566624856128, guid: 24da73254a1cfe342879b65785b7b102, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576776566624856128, guid: 24da73254a1cfe342879b65785b7b102, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 1576776566624856128, guid: 24da73254a1cfe342879b65785b7b102, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1805294029902489471, guid: 24da73254a1cfe342879b65785b7b102, type: 3}
       propertyPath: bullet
       value: 
@@ -10006,6 +10036,10 @@ PrefabInstance:
     - target: {fileID: 8659290711574511731, guid: 24da73254a1cfe342879b65785b7b102, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9047619664386384664, guid: 24da73254a1cfe342879b65785b7b102, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 1847
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
